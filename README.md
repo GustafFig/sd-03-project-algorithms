@@ -1,81 +1,14 @@
-# Boas vindas ao repositório do projeto de Algorithms!
+# Algorithms!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
+## Aprendizados
 
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+Conhecer algoritmos ajuda a entender sua complexidade de tempo e sua eficiência bem como ajuda a resolver e escolher as melhores lógicas para se resolver um problema, dado suas necessidades.
 
----
+## O que foi desenvolvido
 
-## Instruções para entregar seu projeto:
+Para fixar os conteúdos de algoritmos e estrutura de dados vistos até agora, foi realizado um projeto que teve como principal objetivo resolver problemas e otimizar algoritmos do tipo que aparecem em inúmeros processos de entrevista por _whiteboard_ e que aceleraram muito a sua capacidade de resolver problemas!
 
-### ANTES DE COMEÇAR A DESENVOLVER:
-
-1. Clone o repositório
-
-- `git clone https://github.com/betrybe/sd-03-project-algorithms.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `sd-03-project-algorithms`
-
-2. Crie o ambiente virtual para o projeto
-
-- `python3 -m venv .venv && source .venv/bin/activate`
-
-3. Crie uma branch a partir da branch `master`
-
-- Verifique que você está na branch `master`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `master`
-  - Exemplo: `git checkout master`
-- Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-  - Você deve criar uma branch no seguinte formato: `nome-github-nome-do-projeto`
-  - Exemplo: `git checkout -b exemplo-project-algorithms`
-
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (deve aparecer listada a pasta _exemplo_ em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado o arquivo _exemplo/README.md_ em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto algorithms'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin exemplo-project-name`
-
-6. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-03-project-algorithms/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-03-project-algorithms/pulls) e confira que o seu _Pull Request_ está criado
-
----
-
-## Entregáveis
-
-Para entregar o seu projeto você deverá criar um _Pull Request_ neste repositório. Este _Pull Request_ deverá conter os arquivos `challenge_anagrams.py`, `challenge_find_the_duplicate.py`, `challenge_palindromes_iterative.py`, `challenge_palindromes_recursive.py` e `challenge_study_schedule.py`, que conterão seu código `Python`, respectivamente.
-
-### ⚠️ É importante que seus arquivos tenham exatamente estes nomes! ⚠️
-
-Você pode adicionar outros arquivos se julgar necessário. Qualquer dúvida, procure a monitoria.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://course.betrybe.com/intro/git/) sempre que precisar!
-
----
-
-## O que deverá ser desenvolvido
-
-Para fixar os conteúdos de algoritmos e estrutura de dados vistos até agora, você fará um projeto que tem como principal objetivo resolver problemas e otimizar algoritmos do tipo que aparecem em inúmeros processos de entrevista por _whiteboard_ e que vão acelerar muito a sua capacidade de resolver problemas!
-
-Pessoas desenvolvedoras de software, além de serem muito boas em implementações, devem, também, ser boas resolvendo problemas e otimizando algoritmos. No projeto de hoje, vamos treinar, ainda mais, a sua capacidade de resolução de problemas e otimização de código, que envolve algumas habilidades:
+Habilidades:
 
   - Lógica;
 
@@ -87,34 +20,18 @@ Pessoas desenvolvedoras de software, além de serem muito boas em implementaçõ
 
   - Resolver o problemas/Otimizar algoritmos mesmo sob pressão.
 
-Tendo essas habilidades descritas acima, junto com algumas outras, farão de você uma pessoa desenvolvedora que terá muita facilidade em diversas situações problemáticas do dia-a-dia.
-
 ---
 
 ## Desenvolvimento
 
 Este repositório é composto por uma pasta, `challenges`. Essa pasta contém todos os arquivos que você utilizará nesse projeto.
 
-Cada arquivo `.py`, dentro da pasta `challenges`, representa um requisito. Ou seja, os arquivos não tem ligação uns com os outros. Logo, os problemas devem ser resolvidos de forma separada.
+Cada arquivo `.py`, dentro da pasta `challenges`, representa um desafio.
 
-Este repositório já contém um _template_ com a estrutura de diretórios e arquivos,. Veja abaixo:
+---
+## Para rodar os desafios
 
-```md
-.
-├── challenges
-│   ├── challenge_anagrams.py
-│   ├── challenge_find_the_duplicate.py
-│   ├── challenge_palindromes_iterative.py
-│   ├── challenge_palindromes_recursive.py
-│   └── challenge_study_schedule.py
-├── README.md
-├── requirements.txt
-└── setup.cfg
-```
-
-Apesar do projeto já possuir uma estrutura base, você quem deve implementar as funções. Novos arquivos podem ser criados conforme a necessidade.
-
-Lembre-se de primeiro **criar e ativar o ambiente virtual**, além de também instalar as dependências do projeto. Isso pode ser feito através dos comandos:
+Primeiro **crie e ative um ambiente virtual**, além de também instalar as dependências do projeto. Isso pode ser feito através dos comandos:
 
 ```bash
 $ python3 -m venv .venv
@@ -192,9 +109,9 @@ target_time = 1  # saída: 1, pois só o segundo estudante estudou no horário 1
 Para esse exemplo, julgue que o melhor horário é entre `3` e `4`
 ```
 
-- Este requisito será testado executando 10.000 vezes sobre uma mesma entrada. Tais execuções, **no avaliador**, devem acontecer integralmente em menos de 0.02 segundos. O tempo de execução do código na sua máquina pode variar em relação ao avaliador, então é importante levar somente ele em consideração.
-
-**Dica:** use um algoritmo de, no máximo, complexidade `O(n)`
+- Este requisito será testado executando 10.000 vezes sobre uma mesm**Dica:** use um algoritmo de, no máximo, complexidade `O(n)`
+111
+a entrada. Tais execuções, **no avaliador**, devem acontecer integralmente em menos de 0.02 segundos. O tempo de execução do código na sua máquina pode variar em relação ao avaliador, então é importante levar somente ele em consideração.
 
 - Algoritmo deve utilizar a solução iterativa;
 
@@ -203,18 +120,6 @@ Para esse exemplo, julgue que o melhor horário é entre `3` e `4`
 - Caso o `target_time` passado não exista, o valor retornado pela função deve ser `0`;
 
 - Código deve ser feito dentro do arquivo `challenges/challenge_study_schedule.py`.
-
-##### As seguintes verificações serão feitas:
-
-**[Retorne, para uma entrada específica, o melhor horário para disponibilizar o conteúdo]**
-
-**[Retorne, quando mais de um `target_time` empata com a maior saída, o melhor horário para disponibilizar o conteúdo]**
-
-**[Retorne `0` se  `start_time` recebe um valor vazio]**
-
-**[Retorne `0` se  `target_time` recebe um valor vazio]**
-
-**[Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 0.02s (tempo da execução do avaliador no Pull Request)]**
 
 #### 2 - Palíndromos (Recursividade)
 
@@ -248,14 +153,6 @@ word = "AGUA"
 - Se for passado uma _string_ vazia, retorne `False`;
 
 - Código deve ser feito dentro do arquivo `challenges/challenge_palindromes_recursive.py`.
-
-##### As seguintes verificações serão feitas:
-
-**[Retorne `true` se a palavra passada por parâmetro for um palíndromo]**
-
-**[Retorne `false` se a palavra passada por parâmetro não for um palíndromo]**
-
-**[Retorne `false` se nenhuma palavra for passada por parâmetro]**
 
 #### 3 - Anagramas (Algoritmo de ordenação)
 
@@ -293,8 +190,6 @@ second_string = "empada"
 
 - Este requisito será testado executando 10.000 vezes sobre uma mesma entrada. Tais execuções, **no avaliador**, devem acontecer integralmente em menos de 8.2 segundos. O tempo de execução do código na sua máquina pode variar em relação ao avaliador, então é importante levar somente ele em consideração.
 
-**Dica:** use um algoritmo de, no máximo, complexidade `O(n log n)`
-
 - Utilize qualquer algoritmo que quiser (_Selection sort_, _Insertion sort_, _Bubble sort_, _Merge sort_, _Quick sort_ ou _TimSort_), desde que atinja a complexidade `O(n log n)`. Ou seja, preste bastante atenção na escolha do algoritmo e na implementação do mesmo;
 
 - Você deve fazer sua própria implementação do algoritmo de ordenação. Ou seja, você não poderá utilizar bibliotecas com os algoritmos prontos;
@@ -304,18 +199,6 @@ second_string = "empada"
 - A função retorna `False` caso uma _string_ **não seja** um anagrama da outra;
 
 - Código deve ser feito dentro do arquivo `challenges/challenge_anagrams.py`.
-
-##### As seguintes verificações serão feitas:
-
-**[Retorne `true` se as palavras passadas forem anagramas]**
-
-**[Retorne `false` se as palavras passadas por parâmetro não forem anagramas]**
-
-**[Retorne `false` se a primeira palavra passada por parâmetro for uma string vazia]**
-
-**[Retorne `false` se a segunda palavra passada por parâmetro for uma string vazia]**
-
-**[Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 8.2s (tempo da execução do avaliador no Pull Request)]**
 
 ### Requisitos bônus:
 
@@ -347,8 +230,6 @@ nums = [3, 1, 2, 4, 6, 5, 7, 7, 7, 8]
 
 - Este requisito será testado executando 10.000 vezes sobre uma mesma entrada. Tais execuções, **no avaliador**, devem acontecer integralmente em menos de 0.01 segundos. O tempo de execução do código na sua máquina pode variar em relação ao avaliador, então é importante levar somente ele em consideração.
 
-**Dica:** use um algoritmo de, no máximo, complexidade `O(n log n)`
-
 - O array montado deve:
 
   - Ter apenas números inteiros positivos maiores do que 1;
@@ -359,79 +240,12 @@ nums = [3, 1, 2, 4, 6, 5, 7, 7, 7, 8]
 
 - Código deve ser feito dentro do arquivo `challenge_find_the_duplicate.py`.
 
-_Dica:_ Ordene o array.
-
-##### As seguintes verificações serão feitas:
-
-**[Retorne o número repetivo se a função receber, como parâmetro, uma lista com números repetidos]**
-
-**[Retorne `false` se a função não receber nenhum parâmetro]**
-
-**[Retorne `false` se a função receber, como parâmetro, uma string]**
-
-**[Retorne `false` se a função receber, como parâmetro, uma lista sem números repetidos]**
-
-**[Retorne `false` se a função receber, como parâmetro, apenas um valor]**
-
-**[Retorne `false` se a função receber, como parâmetro, um número negativo]**
-
-**[Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 0.01s (tempo da execução do avaliador no Pull Request)]**
-
 #### 5 - Palíndromos (Iteratividade)
 
 Resolva o mesmo problema, apresentado no [requisito dois](####-2---Palíndromos-(Recursividade)), porém dessa vez utilizando a solução iterativa.
 
 - Este requisito será testado executando 10.000 vezes sobre uma mesma entrada. Tais execuções, **no avaliador**, devem acontecer integralmente em menos de 0.005 segundos. O tempo de execução do código na sua máquina pode variar em relação ao avaliador, então é importante levar somente ele em consideração.
 
-**Dica:** use um algoritmo de, no máximo, complexidade `O(n)`
-
 - Algoritmo deve utilizar a solução iterativa;
 
 - Código deve ser feito dentro do arquivo `challenge_palindromes_iterative.py`.
-
-##### As seguintes verificações serão feitas:
-
-**[Retorne `true` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa]**
-
-**[Retorne `false` se nenhuma palavra for passada como parâmetro, executando uma função iterativa]**
-
-**[Retorne true se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa]**
-
-**[[Execute a função, somando 10.000 execuções para uma entrada pequena, em menos que 0.005s (tempo da execução do avaliador no Pull Request)]**
-
-### DURANTE O DESENVOLVIMENTO
-
-- Faça `commits` das alterações que você fizer no código regularmente
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-- Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-### DEPOIS DE TERMINAR O DESENVOLVIMENTO (OPCIONAL)
-
-Para sinalizar que o seu projeto está pronto para o _"Code Review"_ dos seus colegas, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-03`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-### REVISANDO UM PULL REQUEST
-
-Use o conteúdo sobre [Code Review](https://course.betrybe.com/real-life-engineer/code-review/) para te ajudar a revisar os _Pull Requests_.
-
-#VQV 🚀
